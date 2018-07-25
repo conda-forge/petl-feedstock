@@ -1,7 +1,7 @@
 About petl
 ==========
 
-Home: http://github.com/alimanfoo/petl
+Home: http://github.com/petl-developers/petl
 
 Package license: MIT
 

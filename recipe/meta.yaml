@@ -1,6 +1,6 @@
 {% set name = "petl" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "50039a8fc476c442e52087dbea306858b1a875dee655536c5ffe5f90f2ed6da1" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "9f10da5719d731844ccc278f6dfc092e17eb93197d92c556a9d5903202226863" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -33,12 +33,12 @@ test:
     - nosetests -v petl
 
 about:
-  home: http://github.com/alimanfoo/petl
+  home: http://github.com/petl-developers/petl
   license: MIT
   license_file: LICENSE.txt
   summary: 'A Python package for extracting, transforming and loading tables of data.'
   doc_url: http://petl.readthedocs.io/
-  dev_url: https://github.com/alimanfoo/petl
+  dev_url: https://github.com/petl-developers/petl
 
 extra:
   recipe-maintainers:

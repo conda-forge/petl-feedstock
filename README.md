@@ -5,7 +5,7 @@ Home: http://github.com/petl-developers/petl
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python package for extracting, transforming and loading tables of data.
 
@@ -117,5 +117,6 @@ Feedstock Maintainers
 =====================
 
 * [@alimanfoo](https://github.com/alimanfoo/)
+* [@juarezr](https://github.com/juarezr/)
 * [@timbledum](https://github.com/timbledum/)
 

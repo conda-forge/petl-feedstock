@@ -1,6 +1,6 @@
 {% set name = "petl" %}
-{% set version = "1.7.3" %}
-{% set sha256 = "33ed54bbb88fb023e22ab64b0c8b3bc31f53ba61b54d23290b9aa05be2842ca9" %}
+{% set version = "1.7.4" %}
+{% set sha256 = "e57d9d50397e35a0aead8c028494474742edb9b320a89472207778241f57b694" %}
 
 package:
   name: {{ name|lower }}

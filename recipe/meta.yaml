@@ -27,11 +27,11 @@ requirements:
 
 test:
   requires:
-    - nose
+    - pytest
   imports:
     - petl
   commands:
-    - nosetests -v petl
+    - pytest -v petl
 
 about:
   home: http://github.com/petl-developers/petl

@@ -9,3 +9,7 @@
 # needed for package staging process and issue secret tokens, unique to each feedback
 conda_forge_output_validation: true
 
+# only automerge on successful version PRs, migrations are not automerged
+bot:
+  automerge: 'version'
+

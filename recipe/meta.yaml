@@ -18,10 +18,11 @@ build:
 
 requirements:
   host:
-    - pip
     - python
+    - pip
     - setuptools
     - setuptools_scm
+    - pytest
   run:
     - python
 
@@ -31,9 +32,8 @@ test:
   requires:
     - pytest
   commands:
-    - echo 'TEST: Starting {{ name }} version {{ version }}'
-    - pytest --verbose petl
-    - echo 'TEST: Finished {{ name }} version {{ version }}'
+    - pytest --verbose
+#    - pytest --verbose petl
 
 about:
   home: http://github.com/petl-developers/petl

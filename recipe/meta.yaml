@@ -1,5 +1,5 @@
 {% set name = "petl" %}
-{% set version = environ.get('GIT_DESCRIBE_TAG', '1.7.6')|string|replace('-','_') %}
+{% set version = "1.7.6" %}
 {% set sha256 = "44c1e9fec91ff96f4bba78be4df27521ce7d534092701e96ffc1c3c742e574a4" %}
 
 ## github.com/petl-developers/petl-feedstock

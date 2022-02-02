@@ -1,1 +1,11 @@
+# travis:
+#   secure:
+#     BINSTAR_TOKEN: ZLWSbq1o8enyEDK4lGPEhW8Pr4zPSLxOk/iovNweSr2JLhS8X36+Dk2VPbatQiADcdndKmJdBToLCn6T7iyg/b0wDT/A2twfq8CManI0btwU18q4td/+vszupftR2E895LUuj3Mo5IsgVhKfSLlW0d+pCqR1JJVu31hymNLoHFx4iMb7P6lqMYd0AfZDU9Fv0sckKe36hDAORftK+Zwck3bMkiK8JvidR04gUMxWHtFbXe/Ani/TjRY+JzqEBbBYsJCvKOuG/GZpO+BUCeYRRX2zwJcPVsQAhCvqJzLO9BSDL3pOuHivRRfdFrbpMmOGc4QM+pFylH2Ox1jWrO+wGzoIS9MfS7EidQgISHxMC936DhcG5CC5uKcMOur/KC5EQ8ZYyx79Pfjhe/tfNuTDImdqsvzTseUWHkXgEMjt1mA9CW5cvYlqKLAbZ97B+/vnlLFFTGvRdgEIodD+GUV3Xnv6OOJOvteYj+QiIkO9epZjGVX9cJ14Gt81tjPc34Z+P+VTzkDjZ6t4kAX7tD0Lxk8u5GfJaJyJ0BqVvtfsI/BivkdfkJeHnoPyUI/23Dm7Zz34hAi4Z8eF2LNZwTXqwzwF0jKI0SfzZgjf++0dGDywdZ4VekQFYBZoS2vSL+mbx8SHWt0X6z1wZqy33j0yiviceDpYiHbvpOzujpqq7iM=
+# appveyor:
+#   secure:
+#     BINSTAR_TOKEN: ipv/06DzgA7pzz2CIAtbPxZSsphDtF+JFyoWRnXkn3O8j7oRe3rzqj3LOoq2DZp4
+# github.com/petl-developers/petl-feedstock
+
+# needed for package staging process and issue secret tokens, unique to each feedback
 conda_forge_output_validation: true
+

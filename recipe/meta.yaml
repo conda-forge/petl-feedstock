@@ -31,7 +31,7 @@ test:
   imports:
     - petl
   commands:
-    - pytest -v petl
+    - pytest --verbose petl
 
 about:
   home: http://github.com/petl-developers/petl

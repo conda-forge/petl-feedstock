@@ -26,12 +26,14 @@ requirements:
     - python
 
 test:
-  requires:
-    - pytest
   imports:
     - petl
+  requires:
+    - pytest
   commands:
+    - echo 'TEST: Starting {{ name }} version {{ version }}'
     - pytest --verbose petl
+    - echo 'TEST: Finished {{ name }} version {{ version }}'
 
 about:
   home: http://github.com/petl-developers/petl

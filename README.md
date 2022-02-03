@@ -5,7 +5,7 @@ Home: http://github.com/petl-developers/petl
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-petl-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/petl-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python package for extracting, transforming and loading tables of data.
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda-forge-petl-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4064&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petl-feedstock?branchName=master">
       </a>
     </td>
   </tr>
@@ -121,6 +121,7 @@ Feedstock Maintainers
 =====================
 
 * [@alimanfoo](https://github.com/alimanfoo/)
+* [@arturponinski](https://github.com/arturponinski/)
 * [@juarezr](https://github.com/juarezr/)
 * [@timbledum](https://github.com/timbledum/)
 

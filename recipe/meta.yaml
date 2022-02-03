@@ -1,6 +1,6 @@
 {% set name = "petl" %}
-{% set version = "1.7.6" %}
-{% set sha256 = "44c1e9fec91ff96f4bba78be4df27521ce7d534092701e96ffc1c3c742e574a4" %}
+{% set version = "1.7.7" %}
+{% set sha256 = "75976361472da58b12780fe07c1520aebeae89ffa51df3a2c1760ef85de32bff" %}
 
 ## github.com/petl-developers/petl-feedstock
 
@@ -16,7 +16,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install -vv --no-deps --ignore-installed ."
+  script: {{ PYTHON }} -m pip install -vv --no-deps --ignore-installed .
 
 requirements:
   host:

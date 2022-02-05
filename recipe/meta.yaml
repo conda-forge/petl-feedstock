@@ -20,22 +20,24 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
     - setuptools_scm
-    - pytest
+    - pytest <7.0.0
   run:
-    - python
-    - pytest
+    - python >=3.6
+    - pytest <7.0.0
 
 test:
   imports:
     - petl
   requires:
-    - pytest
+    - pytest <7.0.0
   commands:
     - pytest --verbose petl
+  source_files:
+    - petl/
 
 about:
   home: http://github.com/petl-developers/petl

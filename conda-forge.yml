@@ -11,5 +11,8 @@ conda_forge_output_validation: true
 
 # only automerge on successful version PRs, migrations are not automerged
 bot:
-  automerge: 'version'
+  automerge: version
 
+github:
+  branch_name: main
+  tooling_branch_name: main

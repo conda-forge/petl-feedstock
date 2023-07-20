@@ -1,11 +1,11 @@
-About petl
-==========
+About petl-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/petl-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/petl-developers/petl
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/petl-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python package for extracting, transforming and loading tables of data.
 

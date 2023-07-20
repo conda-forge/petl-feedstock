@@ -27,7 +27,6 @@ requirements:
     - pytest <7.0.0
   run:
     - python >=3.6
-    - pytest <7.0.0
 
 test:
   imports:
@@ -35,6 +34,7 @@ test:
   requires:
     - pytest <7.0.0
   commands:
+    - pip check
     - pytest --verbose petl
   source_files:
     - petl/

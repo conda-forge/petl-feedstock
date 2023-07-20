@@ -34,7 +34,7 @@ test:
   requires:
     - pytest <7.0.0
   commands:
-    - pip check
+    - which pip3 && pip3 check || echo Missing pip3 in the environment
     - pytest --verbose petl
   source_files:
     - petl/

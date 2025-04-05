@@ -1,6 +1,6 @@
 {% set name = "petl" %}
-{% set version = "1.7.15" %}
-{% set sha256 = "8e31438380ad51552539865ad3b1ab655de1b531bd03980c871ec2cff4a8c414" %}
+{% set version = "1.7.16" %}
+{% set sha256 = "9c2fea64d859da45e120fd86d471e5387396cc45d5d4986efa79679f18eb8752" %}
 
 ## github.com/petl-developers/petl-feedstock
 
@@ -10,7 +10,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:

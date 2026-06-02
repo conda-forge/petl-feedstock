@@ -15,24 +15,25 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install -vv --no-deps --ignore-installed .
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
     - pytest <7.0.0
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   imports:
     - petl
   requires:
     - pytest <7.0.0
+    - python {{ python_min }}
   commands:
     - which pip3 && pip3 check || echo Missing pip3 in the environment
     - pytest --verbose petl

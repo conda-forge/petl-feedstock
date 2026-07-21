@@ -1,6 +1,6 @@
 {% set name = "petl" %}
-{% set version = "1.7.19" %}
-{% set sha256 = "238ff9ad3a85fcbbd041a8c24cfbcf6dd9e969f736b71b8ae25064648db0b0a0" %}
+{% set version = "1.7.20" %}
+{% set sha256 = "8bb13a7549caa38e72eddf5d68b9310a3255c5b996efda31078ad5e02aef9efa" %}
 
 ## github.com/petl-developers/petl-feedstock
 
